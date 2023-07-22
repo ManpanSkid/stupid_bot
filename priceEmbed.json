@@ -1,0 +1,110 @@
+{
+    "content": null,
+    "embeds": [
+        {
+            "title": "`Static:`",
+            "description": "",
+            "color": 16766464,
+            "fields": [
+                {
+                    "name": "Static Logo",
+                    "value": "10€",
+                    "inline": true
+                },
+                {
+                    "name": "ESX Designs",
+                    "value": "5€",
+                    "inline": true
+                },
+                {
+                    "name": "Tebex Designs",
+                    "value": "2.50€",
+                    "inline": true
+                },
+                {
+                    "name": "FiveM Banner",
+                    "value": "5€",
+                    "inline": true
+                },
+                {
+                    "name": "Discord Profil Banner",
+                    "value": "5€",
+                    "inline": true
+                },
+                {
+                    "name": "Discord Server Banner",
+                    "value": "5€",
+                    "inline": true
+                },
+                {
+                    "name": "Connecting Banner",
+                    "value": "5€",
+                    "inline": true
+                },
+                {
+                    "name": "Teamspeak3 Banner",
+                    "value": "5€",
+                    "inline": true
+                },
+                {
+                    "name": "Tastenbelegung Design",
+                    "value": "5€",
+                    "inline": true
+                }
+            ]
+        },
+        {
+            "title": "`Animations:`",
+            "description": "",
+            "color": 16766464,
+            "fields": [
+                {
+                    "name": "Animation 3D",
+                    "value": "10€",
+                    "inline": true
+                },
+                {
+                    "name": "ESX Designs",
+                    "value": "7.50€",
+                    "inline": true
+                },
+                {
+                    "name": "FiveM Banner",
+                    "value": "7.50€",
+                    "inline": true
+                },
+                {
+                    "name": "Discord Server Banner",
+                    "value": "7.50€",
+                    "inline": true
+                },
+                {
+                    "name": "Discord Profil Banner",
+                    "value": "7.50€",
+                    "inline": true
+                },
+                {
+                    "name": "Connecting Banner",
+                    "value": "7.50€",
+                    "inline": true
+                },
+                {
+                    "name": "Teamspeak3 Banner",
+                    "value": "7.50€",
+                    "inline": true
+                }
+            ]
+        },
+        {
+            "title": "`Web Design:`",
+            "description": "**20€** plus",
+            "color": 16766464
+        },
+        {
+            "title": "`UI Design: `",
+            "description": "**20€** plus",
+            "color": 16766464
+        }
+    ],
+    "attachments": []
+}

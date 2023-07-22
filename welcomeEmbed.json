@@ -1,0 +1,14 @@
+{
+    "content": null,
+    "embeds": [
+        {
+            "title": "Neues Server Mitglied!",
+            "description": "Wilkommen, user auf Mistico Graphics!",
+            "color": 16766464,
+            "image": {
+                "url": "https://media.discordapp.net/attachments/987088922741985280/1121170135722500116/Mistico.png?width=934&height=934"
+            }
+        }
+    ],
+    "attachments": []
+}
