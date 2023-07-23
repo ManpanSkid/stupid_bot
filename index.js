@@ -49,7 +49,7 @@ client.on('guildMemberAdd', member => {
 client.on('messageReactionAdd', async (reaction, user, channel) => {
 	if (user.bot) return;
 	
-	reaction.remove();
+	reaction.users.remove(user);
 
 	if (reaction.message.id !== process.env.VERIFYMESSAGE) return;
 	if (reaction.emoji.name !== process.env.VERIFYREACTION) return;

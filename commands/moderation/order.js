@@ -56,6 +56,8 @@ module.exports = {
 		.addStringOption(option => option.setName('method').setDescription('Zahlungsmethode (bspw. Paypal, Paysafe)').setRequired(true))
 		.addUserOption(option => option.setName('user').setDescription('Auftraggeber').setRequired(true)),
 	async execute(interaction) {
+		if (!interaction.member.permissions.has('ADMINISTRATOR')) return await interaction.reply({ content: "Du hast keine Berechtigung diesen Command zu verwenden!", ephemeral: true });
+
 		const title = setTitleForm(interaction.options.getString('title'));
 		const date = setDateForm();
 		const price = setPriceForm(interaction.options.getString('price'));

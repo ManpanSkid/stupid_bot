@@ -6,6 +6,8 @@ module.exports = {
 		.setDescription('Clear Messages')
 		.addStringOption(option => option.setName('count').setDescription('Count (if not given only delete 1)').setRequired(false)),
 	async execute(interaction) {
+		if (!interaction.member.permissions.has('ADMINISTRATOR')) return await interaction.reply({ content: "Du hast keine Berechtigung diesen Command zu verwenden!", ephemeral: true });
+
 		let count = interaction.options.getString('count');
 
         if (!count) count = 1;
